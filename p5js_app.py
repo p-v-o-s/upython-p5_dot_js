@@ -75,7 +75,6 @@ except ImportError:
 ht_sensor = AM2315()
 ht_sensor.init()
 
-
 ################################################################################
 # APPLICATION CODE
 #-------------------------------------------------------------------------------
@@ -85,39 +84,54 @@ class P5jsServer(WebApp):
     def index(self, context):
         context.send_file("html/index.html")
         
-    @route("/p5.min.js", methods=['GET'])
-    def p5minjs(self, context):
-        context.send_file("html/p5.min.js")
-        
-    @route("/example", methods=['GET'])
-    def example(self, context):
-        context.send_file("html/example/index.html")
-        
-    @route("/example/sketch.js", methods=['GET'])
-    def example_sketch(self, context):
+    @route(regex= "/(\w+)/?(\w+[.](js|html|png|jpg|svg))?", methods=['GET'])
+    def file_resource(self, context):
+        #this route handles all valid file resources under html directory
+        match = context.request.match
+        dirname  = match.group(1)
+        filename = match.group(2)
+        ext      = match.group(3)
         if DEBUG:
-            print("INSIDE ROUTE HANDLER 'example_sketch'")
-        context.send_file("html/example/sketch.js")
+            print("INSIDE REGEX ROUTE HANDLER 'P5jsServer.file_resource':")
+            print("\tdirname = %s" % dirname)
+            print("\tfilename = %s" % filename)
+            print("\text = %s" % ext)
+        
+        dirpath = "/".join(("html",dirname))
+        if filename is None:
+            filename = "index.html"
+        filepath = None
+        try:
+            filelist = os.listdir(dirpath)
+            if filename in filelist:
+                filepath = "/".join((dirpath, filename))
+        except OSError as exc:
+            pass
+            #import errno
+            #if exc.args[0] == errno.ENOENT: #missing directory
+        if filepath is None:
+            filepath = "html/404.html"
+        context.send_file(filepath)
         
 #    @route("/test", methods=['GET'])
 #    def test(self, context):
 #        context.send_file("html/test.html")
         
-    @route("/logs/P5jsServer.yaml", methods=['GET','DELETE'])
-    def logs(self, context):
-        if context.request.method == 'GET':
-            context.send_file("logs/PolyServer.yaml")
-        elif context.request.method == 'DELETE':
-            os.remove("logs/P5jsServer.yaml")
-            open("logs/P5js.yaml",'w').close()
-            context.send_json({})
-        
-    @route("/am2315", methods=['GET'])
-    def am2315(self, context):
-        d = {}
-        #acquire a humidity and temperature sample
-        ht_sensor.get_data(d)  #adds fields 'humid', 'temp'
-        context.send_json(d)
+#    @route("/logs/P5jsServer.yaml", methods=['GET','DELETE'])
+#    def logs(self, context):
+#        if context.request.method == 'GET':
+#            context.send_file("logs/PolyServer.yaml")
+#        elif context.request.method == 'DELETE':
+#            os.remove("logs/P5jsServer.yaml")
+#            open("logs/P5js.yaml",'w').close()
+#            context.send_json({})
+#        
+#    @route("/am2315", methods=['GET'])
+#    def am2315(self, context):
+#        d = {}
+#        #acquire a humidity and temperature sample
+#        ht_sensor.get_data(d)  #adds fields 'humid', 'temp'
+#        context.send_json(d)
     
 #    def __init__(self, *args,**kwargs):
 #        super().__init__(*args, **kwargs)  #IMPORTANT call parent constructor

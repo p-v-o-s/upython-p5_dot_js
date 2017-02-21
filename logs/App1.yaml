@@ -1,0 +1,289 @@
+---
+Time: 2017-02-20 21:33:48
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45582)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 137, in handle_request
+        for regex, h in self.app.regex_handler_registry.values():
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:33:48
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45584)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 137, in handle_request
+        for regex, h in self.app.regex_handler_registry.values():
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:34:06
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45588)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 137, in handle_request
+        for regex, h in self.app.regex_handler_registry.values():
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:34:06
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45590)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 137, in handle_request
+        for regex, h in self.app.regex_handler_registry.values():
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:34:07
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45592)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 137, in handle_request
+        for regex, h in self.app.regex_handler_registry.values():
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:34:07
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45594)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 137, in handle_request
+        for regex, h in self.app.regex_handler_registry.values():
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:35:16
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45600)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 137, in handle_request
+        for repr_regex, data in self.app.regex_handler_registry.values():
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:35:16
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45602)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 137, in handle_request
+        for repr_regex, data in self.app.regex_handler_registry.values():
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:35:53
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45604)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 138, in handle_request
+        regex, h = data
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:35:53
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45606)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 138, in handle_request
+        regex, h = data
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:43:55
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45636)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 138, in handle_request
+        regex, h = data
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:43:55
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45638)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 138, in handle_request
+        regex, h = data
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:45:06
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45648)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 139, in handle_request
+        regex, h = data
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:45:06
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45650)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 139, in handle_request
+        regex, h = data
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:48:35
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('User-Agent', ' openscan'), ('Accept', ' */*')])
+    client_address: ('46.174.191.30', 36513)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 139, in handle_request
+        regex, h = data
+    ValueError: need more than 1 value to unpack
+...
+---
+Time: 2017-02-20 21:53:01
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45686)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 139, in handle_request
+        print("HANDLER LOOKUP REGEX: data = %r" % data)
+    TypeError: not all arguments converted during string formatting
+...
+---
+Time: 2017-02-20 21:53:01
+Context: Exception caught in 'HttpServer.handle_request' during handler lookup regex
+Request:
+    method: GET
+    path: /
+    match: None
+    args: {}
+    headers: OrderedDict([('Host', ' 0.0.0.0:8080'), ('Connection', ' keep-alive'), ('Cache-Control', ' max-age=0'), ('Upgrade-Insecure-Requests', ' 1'), ('User-Agent', ' Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36'), ('Accept', ' text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Encoding', ' gzip, deflate, sdch'), ('Accept-Language', ' en-US,en;q=0.8')])
+    client_address: ('127.0.0.1', 45688)
+    body: None
+Exception: |
+    Traceback (most recent call last):
+      File "/home/cversek/gitwork/open-eio/upython-pawpaw/pawpaw/http_server.py", line 139, in handle_request
+        print("HANDLER LOOKUP REGEX: data = %r" % data)
+    TypeError: not all arguments converted during string formatting
+...
